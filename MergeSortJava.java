@@ -32,8 +32,6 @@ java.util.Scanner sc=new java.util.Scanner(System.in);
 int n=sc.nextInt();
 System.out.println("Enter the items");
 int[] x = new int[n];
-/*for(int i=1;i<=n;i++)
-	x[i]=sc.nextInt();*/
 for(int i=0;i<n;i++)
 	x[i]=sc.nextInt();
 System.out.println("You have entered: ");
